@@ -36,7 +36,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-PORT=5000
-MONGODB_URL="mongodb+srv://Sunnatullox:KxWAEU2uh4lx77Ah@cluster0.k9hvufw.mongodb.net/<database-name>"
-PUBLIC_URL="http://localhost:5173"
-JWT_SECRET_KEY='g35rbg4h5n4m65 m4g y 6 e'
