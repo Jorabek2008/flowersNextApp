@@ -65,7 +65,7 @@ function Navbar() {
       </div>
 
 
-      <div className={`w-[400px] ${styles.z} bg-white h-[100vh] absolute transition-all top-0 ${show ? 'right-0' : 'right-[-400px]'} md:hidden`}>
+      <div className={`w-full ${styles.z} bg-white h-[100vh] absolute transition-all top-0 ${show ? 'right-0' : 'right-[-1200px]'} md:hidden`}>
         <IoClose size={25} className='block md:hidden mt-6 ml-auto cursor-pointer mr-4 text-[#3D3D3D] hover:text-black' onClick={() => setShow(false)} />
           <ul className='text-center mt-10 '>
             {pageLink.map((item, index) => {

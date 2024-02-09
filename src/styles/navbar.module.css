@@ -1,9 +1,16 @@
+@font-face {
+    font-family: CeraPro;
+    src: url("../fonts/Cera\ Pro\ Medium.ttf");
+}
+
 .linkHover:hover div{
     width: 100%;
     transition: all 0.2s ease;
 }
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap');
 
 .z{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.font{
+    font-family: CeraPro;
 }
